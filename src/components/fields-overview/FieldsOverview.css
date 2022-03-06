@@ -1,0 +1,165 @@
+.fields-list {
+  list-style: none;
+  padding: 0;
+  margin: 17px 0 0;
+}
+
+.fields-list__item {
+  margin-top: 14px;
+}
+
+.fields-list__item:first-child {
+  margin-top: 0;
+}
+
+.field-item {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  font-family: inherit;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.field-item__image {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+}
+
+.field-item__back-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.field-item__shape-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.field-item__shape-image svg {
+  display: block;
+}
+
+
+.field-item__info {
+  display: flex;
+  flex-grow: 1;
+  padding: 5px 0 0;
+}
+
+.field-item__name {
+
+
+}
+
+.field-item__stats {
+  margin: 0 0 0 auto;
+  text-align: right;
+  padding: 3px 0 0;
+}
+
+.field-item__title {
+  font-size: 14px;
+  line-height: 1.29em;
+  font-weight: 500;
+  color: #222222;
+  margin: 0;
+}
+
+.field-item__description {
+  font-size: 12px;
+  line-height: 1.17em;
+  margin: 4px 0 0;
+}
+
+.field-item__percent {
+  font-size: 12px;
+  line-height: 1.17em;
+  display: block;
+}
+
+.field-item__square {
+  font-size: 12px;
+  line-height: 1.33em;
+  color: #5e5e5e;
+  display: block;
+  margin: 5px 0 0;
+}
+
+.field-group-items {
+  margin: 24px 0 0;
+  padding: 0 0 10px;
+}
+
+.field-group-item {
+  margin-top: 35px;
+}
+
+.field-group-item {
+  margin-top: 0;
+}
+
+
+.field-group-item__header {
+  display: flex;
+  margin: 35px 0 0;
+}
+
+.field-group-item__title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.field-group-item__help-button {
+  appearance: none;
+  padding: 0;
+  border: none;
+  background: none;
+  margin: 0 0 0 4px;
+}
+
+.field-group-item__header-square {
+  margin-left: auto;
+  font-size: 12px;
+  line-height: 1.33em;
+}
+
+.field-chart {
+  display: flex;
+  margin: 3px -1px 0;
+}
+
+.field-chart__section {
+  height: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.field-chart__section--green {
+  background: #72ba7b;
+}
+
+.field-chart__section--yellow {
+  background: #f4d359;
+}
+
+.field-chart__section--gray {
+  background: rgba(94, 94, 94, 0.5);
+}
+
+.field-chart__section--current {
+  height: 4px;
+  border-radius: 2px;
+  margin-top: -1.5px;
+}
+

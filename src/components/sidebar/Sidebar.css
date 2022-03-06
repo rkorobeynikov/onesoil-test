@@ -1,0 +1,137 @@
+.sidebar {
+  width: 280px;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.sidebar__header {
+  padding: 5px 15px 0;
+}
+
+.sidebar__title {
+  margin: -2px 0 0;
+  font-size: 24px;
+  line-height: 1.33em;
+}
+
+
+.sidebar__fields-viewer {
+  padding: 9px 15px 0;
+  height: calc(100% - 175px);
+  overflow: scroll;
+}
+
+.sidebar__season-chooser {
+
+  margin: 0;
+}
+
+.season-chooser-button {
+  appearance: none;
+  background: #e4e7ea;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 32px 10px 43px;
+  font-size: 16px;
+  line-height: 1.37em;
+  font-family: inherit;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.season-chooser-button__calendar-icon {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.season-chooser-button__arrow-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.sidebar__footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  padding: 14px 15px 13px 15px;
+  width: 100%;
+  margin: 10px 0 0;
+}
+
+.sidebar__guide-button {
+
+}
+
+.sidebar__profile-button {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  margin-top: 1px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.sidebar__profile-button:hover {
+  opacity: 0.7;
+}
+
+.action-button {
+  appearance: none;
+  background: #27ae60;
+  border-radius: 8px;
+  padding: 14px 10px;
+  font-size: 16px;
+  line-height: 1.37em;
+  display: block;
+  border: none;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background: #239553;
+}
+
+.action-button__icon {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.guide-button {
+  appearance: none;
+  background: none;
+  text-align: left;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.guide-button__icon {
+  vertical-align: top;
+  margin-right: 7px;
+  margin-top: -2px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.guide-button:hover .guide-button__icon {
+  opacity: 0.7;
+}
