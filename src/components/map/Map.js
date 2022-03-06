@@ -1,6 +1,5 @@
 import './Map.css'
 import mapPlaceholder from './map-placeholder.jpg';
-import fields from './fields.svg'
 
 function Map() {
   return (

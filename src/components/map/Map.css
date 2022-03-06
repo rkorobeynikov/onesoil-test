@@ -67,7 +67,7 @@
 }
 
 .map__zoom-button:hover {
-  background: #000;
+  background: #000000;
 }
 
 .map__zoom-button--in {
@@ -110,4 +110,3 @@
 .map__location-button:hover {
   background: #000000;
 }
-

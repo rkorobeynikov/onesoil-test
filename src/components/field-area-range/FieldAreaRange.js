@@ -51,9 +51,9 @@ const pointsData = [
 ]
 
 function FieldAreaPoints() {
-  return pointsData.map(item => {
+  return pointsData.map((item, index) => {
     return (
-      <div className="field-area-range__point" style={{backgroundColor: item.color, left: item.position + '%'}}></div>
+      <div key={index} className="field-area-range__point" style={{backgroundColor: item.color, left: item.position + '%'}}></div>
     );
   });
 }

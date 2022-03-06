@@ -4,7 +4,7 @@ import React from "react";
 const FieldsList = (props) => {
  const fields = props.fields.map((item, index) => {
    return (
-     <li className="fields-list__item">
+     <li className="fields-list__item" key={index}>
        <button type="button" className="field-item">
          <div className="field-item__image">
            <img className="field-item__back-image" src={item.image_url} alt={item.title}/>
@@ -37,6 +37,7 @@ const FieldChart = (props) => {
   const chart = keys.map((key, item) => {
     return (
       <div
+        key={item}
         className={'field-chart__section field-chart__section--' + key + (props.currentSection === key ? ' field-chart__section--current' : '')}
         style={{width: props.chartSections[key] + '%'}}></div>
     );
@@ -48,7 +49,7 @@ const FieldChart = (props) => {
 const FieldsGroups = (props) => {
   const groups = props.fieldsGroups.map((item, index) => {
     return (
-      <div className="field-group-item">
+      <div className="field-group-item" key={index}>
         <header className="field-group-item__header">
           <h3 className="field-group-item__title">{item.heading}</h3>
           <button className="field-group-item__help-button" type="button" aria-label="Help">
