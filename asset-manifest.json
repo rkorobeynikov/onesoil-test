@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/onesoil-test/static/css/main.2f495107.css",
+    "main.js": "/onesoil-test/static/js/main.c8681849.js",
+    "static/js/787.6934c99f.chunk.js": "/onesoil-test/static/js/787.6934c99f.chunk.js",
+    "static/media/map-placeholder.jpg": "/onesoil-test/static/media/map-placeholder.ca6b4dfb92a0da007cc9.jpg",
+    "static/media/GraphikLCWeb-Medium.c711dd86.woff": "/onesoil-test/static/media/GraphikLCWeb-Medium.c711dd86.c711dd86e7074feaef2a.woff",
+    "static/media/GraphikLCWeb-Regular.0c466a7d.woff": "/onesoil-test/static/media/GraphikLCWeb-Regular.0c466a7d.0c466a7d7a7d3f60da7a.woff",
+    "static/media/fields.svg": "/onesoil-test/static/media/fields.bb6a9f495fe87fd6c78834ea6850ad53.svg",
+    "static/media/onesoil-logo.svg": "/onesoil-test/static/media/onesoil-logo.c63fd2f28155b50cb8224b8e1da19520.svg",
+    "index.html": "/onesoil-test/index.html",
+    "static/media/icon-search.svg": "/onesoil-test/static/media/icon-search.1114c2731f3b8bdddce5.svg",
+    "static/media/checkbox.svg": "/onesoil-test/static/media/checkbox.87483da2331697dc66fb.svg",
+    "main.2f495107.css.map": "/onesoil-test/static/css/main.2f495107.css.map",
+    "main.c8681849.js.map": "/onesoil-test/static/js/main.c8681849.js.map",
+    "787.6934c99f.chunk.js.map": "/onesoil-test/static/js/787.6934c99f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f495107.css",
+    "static/js/main.c8681849.js"
+  ]
+}
